@@ -1,0 +1,241 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+/*header starts*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+}
+.wrapper{
+	/*border: 1px solid white;*/
+	width:80%;
+	margin: 0 auto;/*majhe anse*/
+	overflow: hidden;
+}
+.logo{
+/*border: 1px solid white;*/
+width: 15%;
+float: left;	
+margin-top: 5px;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 75%;
+	/*border: 1px solid white;*/
+	float:right;
+	margin-top: 40px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+text-decoration: none;	
+padding : 0 15px;
+display: block;
+color:white;
+transition: .4s;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color:#0078BD;
+}
+
+/*header ends*/
+/*banner starts*/
+.banner{
+	background-image: url(../images/clear.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:  center;
+}
+.banner-content{
+width : 50%;/*thsi for thewritings to fit in*/
+margin-top: 300px;/*upore charbe etotuku*/
+margin-bottom: 70px;/*nich theke charbe 30 px*/
+}
+.banner-content h1{
+	font-family: sans-serif;
+	font-weight: 60;
+	font-size: 40px;
+	color: white;
+}
+.banner-content h2{
+	margin-bottom:10px;
+	font-family: sans-serif;
+    font-weight:750;
+    font-size:40px;
+	color: #0075B8;
+}
+.banner-content p{
+	margin-bottom: 20px;
+	font-weight:80;
+	font-size:19px;
+	color: white;
+}
+.banner-content button{
+	padding: 10px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+/*banner ends*/
+/*service strts*/
+.service{
+	background-color :#121B2A;
+	padding: 10px 0;
+}
+/*.wrapper{} noo need cz have once already*/
+.single{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-right: 1px solid #7E8089;
+	width: 29%;
+    padding: 23px;
+	float: left;
+	overflow: hidden;
+}
+.single:last-child{
+	border-right: none;
+}
+.title{
+overflow: hidden;
+}
+.icon{
+	width: 20%;
+	float: left;
+}
+.icon img{
+	width: 100%;
+	/*float: left;*/
+	/*margin-left: 5px;*/
+}
+.icon-content{
+	/*border: 1px solid red;*/
+	width: 70%;
+	float: left;
+	margin-top: 10px;
+	overflow: hidden;
+	margin-left: 20px;
+}
+.icon-content h1{
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.icon-content h2{
+	color: blue;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+.content{}
+.content p{
+	margin-top: 20px;
+	color: white;
+}
+/*service ends*/
+/*query starts*/
+.query{
+	border: 1px solid white;
+	background-color: #040811;
+	overflow:hidden;
+}
+.header{}
+.header h1{
+	color: white;
+	float:left;
+}
+.header span{
+	color: #1010F8;
+	float:left;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 19px;
+	padding:4px 2px 0 0;
+	margin-left: 7px;
+}
+.body{}
+.body p{
+
+	color: white;
+	float: left;
+}
+.left{
+	width: 40%;
+	float:left;
+}
+.left img{
+	width:100%;
+}
+.right{
+	width: 30%;
+	float:left;
+	margin-left: 15px;
+}
+.head{}
+.head h1{
+	color: white;
+}
+.head span{
+	color:#1010F8;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 19px;
+}
+.bod{}
+.bod img{
+	float:left;
+}
+
+/*query ends*/
+/*footer starts*/
+.footer{
+	background-color: #121B2C;
+}
+.menubar{
+	width:60%;
+}
+.menubar ul{
+	margin-top: 30px;
+}
+.menubar ul li{
+	float: left;
+	list-style: none;
+	color:white;
+}
+.menubar ul li a{
+	text-decoration: none;
+	padding: 10px;
+	color:white;
+	transition-duration: .4s;
+}
+.menubar ul li a:hover{
+	color:#0078BD;
+}
+.copyright{
+	width:40%;
+	
+}
+.copyright p{
+	color: white;
+	margin-top: 30px;
+}
+.logofoot{
+	width: 35%;
+	float:right;
+}
+.logofoot img{}
+
+/*footer ends*/
